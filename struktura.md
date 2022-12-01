@@ -1,3 +1,4 @@
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,3 +9,4 @@
 <p>Tady začíná tvá cesta do IT!</p>
 </body>
 </html>
+```
