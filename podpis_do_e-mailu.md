@@ -1,0 +1,13 @@
+Pokud si chcete v html  vyrobit podpis do e-mailu, mám tu pro vás vzor. 
+Dá se použít i jako vizitka.
+Tento vzor má pěkné rámování a je velmi lehce upravitelný. Stačí změnit hodnoty jako adresa obrázku v podpisu (tam pozor odkud obrázek berete, ne všechny jsou zdarma a volně k šíření!), dále můžete lehce změnit přepsáním hodnoty jako e-mail a odkazy na sociální sítě. Pokud budete mít málo řádku stačí zkopírovat jeden a přidat ho pod hotový a editovat hodnoty zobrazení.
+Podpis se sám natáhne do strany, pokud máte delší e-mail nebo webovou adresu.
+Podpis díky html se dá lehce editovat, tak si lehce nastavíte font, či barvu textu k čemu stačí základní vědomosti html.
+
+```
+ <div><table cellpadding="0" width="500" style="border-collapse:collapse;font-size:14.4px;"><tr><td style="margin:0.1px;padding:0"><table cellpadding="0" style="border-collapse:collapse"><tr><td valign="top" style="margin:0.1px;padding:0 15px 0 0;"><img src="https://logz.io/wp-content/uploads/2015/11/github-logo-150x150.gif"></td><td valign="top" style="margin:0.1px;padding:0 15px 0 0"><table cellpadding="0" style="border-collapse:collapse"><tr><td style="margin:0.1px;padding:0;font:17.3px/22.0px Verdana, Geneva, sans-serif;color:#000001;"> Váš nick, jméno </td></tr><tr><td style="margin:0.1px;padding:0;font:14.4px/18.3px Verdana, Geneva, sans-serif;color:#000001;"><span style="color:#00cfd6;">mastodon: </span><a href="https://mastodon.arch-linux.cz#" target="_blank" style="color:#000001;text-decoration:none;font-family:Verdana, Geneva, sans-serif;">Váš nick</a></td></tr>
+<tr><td style="margin:0.1px;padding:0;font:14.4px/18.3px Verdana, Geneva, sans-serif;color:#000001;"><span style="color:#00cfd6;">email: </span><a href="mailto:kankys@arch-linux.cz" target="_blank" style="color:#000001;text-decoration:none;font-family:Verdana, Geneva, sans-serif;">kankys@arch-linux.cz</a></td></tr><tr><td style="margin:0.1px;padding:0;font:14.4px/18.3px Verdana, Geneva, sans-serif;color:#000001;"><span style="color:#00cfd6;">email: </span><a href="mailto:lukas.kanka@lukan.cz" target="_blank" style="color:#000001;text-decoration:none;font-family:Verdana, Geneva, sans-serif;">lukas.kanka@lukan.cz</a></td></tr><tr><td style="margin:0.1px;padding:0;font:14.4px/18.3px Verdana, Geneva, sans-serif;color:#000001;"><span style="color:#00cfd6;">web: </span><a href="https://arch-linux.cz/" target="_blank" style="color:#000001;text-decoration:none;font-family:Verdana, Geneva, sans-serif;">arch-linux.cz</a></td></tr>
+     </table></td></tr></table></td></tr></table></div>
+ 
+```    
+    
